@@ -35,7 +35,7 @@ public:
   	else if (value == curr->key) {
   	  return;
   	}
-  	else {
+  	else{
   	  curr = curr->right;
   	}
       }
